@@ -1,46 +1,44 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="京都人クイズ"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「京都人って皮肉臭いって言われるけど、どんなところに出るのかな？」[l][r]
 
-メロスは激怒した。[l][r]
+「会話の節々にでるらしいよ」[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+「え、本当？！この前、近所の京都出身らしきおばさんにほめられたんだけど、あれってもしかいしたら…」[l][r]
+「もしかしたら、悪口だったかもよ。なんて言われたの？」[l][r]
 
-(中略)[l][r]
+どっちが京都人ぽいか下から選んでね！[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →「最近ピアノ上手になってますね」 [endlink][r]
+[link target=*tag_run] →「ピアノ好きなんですね」 [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=kyoto.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+「その人は生粋の京都人だね。それは遠回しに君のピアノが下手なうえにうるさくて近所迷惑だよって言ってるんだよ。[l][r]
+「そんなーーーー」[r]
 
-【 BAD END 】[l][cm]
+【 You got Kyotoed! 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=kyoto.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+「その人は生粋の京都人だね。遠回しにピアノが好きなのにあまり上手じゃないなっていってるんだよ」[l][r]
+「そんなーーーー」[r]
 
-【 GOOD END 】[l][cm]
+【You got Kyotoed! 】[l][cm]
 
 [jump target=*start]
